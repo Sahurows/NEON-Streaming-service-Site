@@ -1,0 +1,19 @@
+/*ceci sert a centrer mes condition d'uilisation de façons responsive */
+body{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: linear-gradient(#A4A0EB, #0159AA) fixed;
+    align-items: center;
+    justify-content: center;    
+}
+/*pour ajouter une bordure au conditions d'utilisation */
+#Border{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: snow;
+    color: black;
+    padding: 15px;
+    max-width: 1000px;
+    align-items: center;
+}

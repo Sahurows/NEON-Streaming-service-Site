@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="../css/Connection.css">
+    <script src="../script/Connection.js"></script>
+    <link rel="stylesheet" href="../css/Tarif.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="..//css/Footer.css">
+</head>
+<body>
+    <!-- Le Header -->
+<div class = "header">
+    <sectionF>
+    <nav>
+        <ul>
+            <a href="../index.html">Accueil</a>
+            <a href="Tarif.html">tarif</a>
+            <a href="Connection.html">Creation de compte</a>
+            <a href="TermOfUse.html">condition d'utilisation</a>
+            <input class="search" type="search" placeholder="search here" >
+            <button>valider</button>
+        </ul>
+        
+    </nav>
+        
+    </div>
+    </sectionF>
+</body>
+<body>
+    <!-- contenu html -->
+    <div class="Contenu">
+    <br><br>
+    <h2 id="h2">Formulaire avec Java Script</h2>
+    <br><br>
+    
+    <form action="Connection.html" method="GET" onsubmit="return validerFormulaire()">
+    
+    <!-- Username html -->
+    <div class="Username">
+        <p id="UError">Nom d'utilisateur:</p>
+        
+    </div>
+    <INPUT class="U" type="text" name=Username size=20 id="Username" onclick="click()">
+
+    <!-- Adresse html -->
+    <div class="Adresse">
+        <p id="AError">Adresse:</p>
+    </div>
+    <INPUT class="A" type="text" name=Adresse size=20 id="Adresse">
+
+    <!-- Adresse électronique html -->
+    <div class="AdresseE">
+        <p id="AEError">Adresse électronique:</p>
+    </div>
+    <INPUT class="AE" type="text" name=AdresseE size=20 id="AdresseE">
+
+    <!-- Telephone html -->
+    <div class="Telephone">
+        <p id="TError">Téléphone:</p>
+    </div>
+    <INPUT class="TEL" type="text" name=Telephone size=20 id="Telephone" value="+1" onmouseup="MUp()">
+
+    <!-- Password html -->
+    <div class="Password">
+        <p id="MError">Mot de passe:</p>
+    </div>
+    <INPUT class="MDP" type="password" name=password size=20 id="Password" ondblclick="DBClick()">
+    
+    <!-- Password2 html -->
+    <div class="Password2">
+        <p id="MError2">Confirmation du mot de passe:</p>
+    </div>
+    <INPUT class="MDP2" type="password" name=password2 size=20 id="Password2" onclick="Click()">
+
+    <!-- Date html -->
+    <div class="Date">
+        <p id="DError">La date actuelle:</p>
+    </div>
+    <INPUT class="DA" type="date" name=Date size=20 id="Date" onmousedown="MDown()">
+
+
+    <!-- Espace -->
+    <br><br>
+
+    <!-- CheckBox html -->
+    <div class="CHECKBOX1"> 
+        <td>
+            <INPUT TYPE=CHECKBOX NAME=materiel VALUE="Windows" CHECKED>Se rappeler de moi
+        </td>
+    </div>
+    <br>
+    <div class="CHECKBOX2"> 
+        <td>
+            <INPUT TYPE=CHECKBOX NAME=materiel VALUE="Windows" CHECKED>Accepter les conditions d'utilisations
+        </td>
+    </div>
+    <br><br>
+        
+    <!-- Connection html -->
+    <button id="BTNN" onmouseover="MouseOver()" onmouseout="MouseOut()" type="submit" class="Connection" onclick="ErrorTextColor()">Connection</button>
+    
+    </div>
+    </form>
+    </div>
+</body>
+<!-- footer -->
+
+</html>

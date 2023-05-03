@@ -1,0 +1,47 @@
+
+
+/* Contenus du body */
+body{
+
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: linear-gradient(#A4A0EB, #0159AA) fixed;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+body p{
+    color: snow;
+    padding-top: 25px;
+    flex-grow: 1;
+}
+body h1{
+    color: snow;
+    padding-top: 25px;
+    flex-grow: 1;
+    }
+
+
+.interieur{
+   padding-top: 1100px;
+   background-color: rgb(219, 219, 219);
+   text-align: center;
+}
+/* Image du site */
+img {
+   
+    max-width: 100%;
+  }
+  /* Boutton */
+  .boutton {
+    background-color: rgb(87, 41, 139); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+  }

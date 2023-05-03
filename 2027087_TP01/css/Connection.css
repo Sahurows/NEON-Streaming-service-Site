@@ -1,0 +1,162 @@
+/* Username css */
+.U{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 15%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Username{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 11%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Adresse css */
+.A{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 22%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Adresse{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 18%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Adresse Electronique css */
+.AE{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 29%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.AdresseE{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 25%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Telephone css */
+.TEL{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 36%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Telephone{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 32%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Password css */
+.MDP{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 43%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Password{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 39%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Password css */
+.MDP2{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 50%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Password2{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 46%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Connexion css */
+.Connection{
+    color: white;
+    position: absolute;
+    right: 58%;
+    padding: 15px;
+    top: 80%;
+    font-family: "Arial", "Courier New", monospace;
+}
+#BTNN {
+    background-color: hwb(95 15% 59%);
+    font-family: "Arial", "Courier New", monospace;
+  }
+/* CheckBox css */
+.CHECKBOX1{
+    position: absolute;
+    right: 54.5%;
+    padding: 15px;
+    top: 67%;
+    font-family: "Arial", "Courier New", monospace;
+}
+.CHECKBOX2{
+    position: absolute;
+    right: 48.5%;
+    padding: 15px;
+    top: 72%;
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Contenu css */
+.Contenu{
+    text-align: center;
+}
+.styleH2{
+    background-color: rgb(241, 155, 155);
+    font-family: "Arial", "Courier New", monospace;
+}
+/* Date css */
+.DA{
+    width: 25%;
+    position: absolute;
+    background-color: hwb(0 80% 20%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    right: 37%;
+    top: 57%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
+.Date{
+    width: 25%;
+    position: absolute;
+    right: 37%;
+    top: 53%; /* 7 de différence */
+    font-family: "Arial", "Courier New", monospace;
+}
